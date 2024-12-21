@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Jack Hogg</title>
+    <script defer src="script.js"></script>
 </head>
 <body>
     <div class="container" >
@@ -20,7 +21,7 @@
                             <li><a href="#skills">Skills</a></li>
                             <li><a href="#projects">Projects</a></li>
                             <li><a href="#contacts">Contact</a></li>
-                            <li><button>Light Mode</button></li>
+                            <li><button id="dark/light" onclick="lightmode()">Theme</button></li>
                         </ul>
                     </div>
                 </div>
@@ -31,17 +32,15 @@
                 <hr>
                 <h2>Software Engineer</h2>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur a perferendis itaque aspernatur, earum voluptate in repellat non doloremque architecto beatae voluptatum sint facere pariatur consequatur maiores. Quidem, error ex! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, porro? Temporibus quae ducimus eveniet ipsam adipisci eligendi ad saepe debitis. Temporibus sit soluta, voluptates eligendi cum nam neque nihil eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam deleniti id harum voluptatem, voluptas magni saepe? Asperiores molestias atque eaque repellat rem? Impedit officiis eius vitae asperiores. Iste, eligendi reprehenderit.</p>
+            <p>Hi I'm Jack!  A Software Engineer based in the UK</p>
         </section>
         <section id="about">
             <div>
                 <h2 class="header">About</h2>
             </div>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium amet ullam saepe ipsa, itaque quae sequi corporis obcaecati minima at architecto reprehenderit natus esse velit nostrum tempore ab dolores non!
-            Deleniti fugiat, quisquam sapiente enim libero excepturi ipsa sint corporis non exercitationem rerum, odio quae nobis earum veritatis vitae expedita asperiores vel fuga harum? Nam nobis ab aliquid ducimus amet!
-            Rerum ab velit odit blanditiis incidunt enim, vero, numquam magnam, suscipit pariatur fugit maiores iste perspiciatis officiis odio animi soluta maxime illum labore accusamus repellat a quia! Saepe, eligendi eos!
-            Blanditiis odit nulla voluptas reiciendis odio, rerum eos facere vero nihil quisquam sed sint modi at exercitationem saepe sequi nisi repellat nesciunt culpa atque, quae minima nam? Nemo, magnam blanditiis!
-            Veniam quam laudantium porro, excepturi voluptatum harum doloremque non incidunt officia ullam facilis aut, temporibus ab? Vel maxime enim cupiditate incidunt temporibus odio voluptatem facere porro commodi, deleniti distinctio maiores.</p>
+            <p>As a tech enthusiast I have a passion for creating seamless and user-friendly experiences <br>
+            I have a focus in back-end, delivering high quality solutions and applications
+            </p>
         </section>
         <section id="skills">
             <div>
@@ -64,8 +63,8 @@
             <h2>Projects:</h2>
             <div class="project_items">
                 <ul>
-                    <li><button><img src="assets/VS CODE LOGO.png"></button></li>
-                    <li><button><img src="assets/VS CODE LOGO.png"></button></li>
+                    <li><a target="_blank" href="https://hoggius.github.io/To-Do-List/"><img src="assets/TODO LIST PICTURE.png"></a></li>
+                    <li><button><img src="assets/calculator pic.png"></button></li>
                     <li><button><img src="assets/VS CODE LOGO.png"></button></li>
                     <li><button><img src="assets/VS CODE LOGO.png"></button></li>
                     <li><button><img src="assets/VS CODE LOGO.png"></button></li>
@@ -79,10 +78,12 @@
             <div>
                 <h2 class="header">Contact</h2>
             </div>
-            <div>
-                <h4>Email</h4>
-                <h4>Mobile Number</h4>
-                <h4>Github</h4>
+            <div class="contact-links">
+                <ul>
+                    <li><a target="_blank" href="https://github.com/Hoggius"><img src="assets/GITGUB LOGO.png"></a></li>
+                    <li><button><img src="assets/GMAIL LOGO.png"></button></li>
+                    <li><button><img src="assets/LINKEDIN LOGO.png"></button></li>
+                </ul>
                 <h4></h4>
             </div>
         </section>

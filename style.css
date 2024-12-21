@@ -2,6 +2,7 @@
     /* add variables here */
     /*! --var_name: value */
     --darkmode: #1a2130;
+    --lightmode: #fafafa;
 }
 
 * {
@@ -217,3 +218,36 @@ img {
     flex-wrap: wrap;
     
 }
+
+p {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.light-mode {
+    color: black;
+    background: var(--lightmode);
+}
+
+button {
+    cursor: pointer;
+}
+
+.contact-links {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+
+.contact-links ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+
